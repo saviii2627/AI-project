@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+  }
+
+  #uploadedImageContainer img {
+    margin-top: 1rem;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  }
+  
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #5c6bc0;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #loading {
+    margin-top: 1rem;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #imageContainer img {
+    margin-top: 2rem;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+
+  #assistantPanel {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 300px;
+    max-height: 400px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  #chatHeader {
+    background: #5c6bc0;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  #chatBody {
+    padding: 10px;
+    height: 250px;
+    overflow-y: auto;
+    font-size: 0.9rem;
+  }
+  
+  #chatInputContainer {
+    display: flex;
+    border-top: 1px solid #444;
+  }
+  
+  #chatInput {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #333;
+    color: white;
+  }
+  
+  #chatSend {
+    padding: 10px;
+    background: #5c6bc0;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #toggleChat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #5c6bc0;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  

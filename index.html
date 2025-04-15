@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Art Generator</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 AI Art Generator</h1>
+    
+    <input type="text" id="prompt" placeholder="Describe your image..." />
+    <button id="generateBtn">Generate Art</button>
+
+    <h3>📁 Or Upload Your Own Image</h3>
+    <input type="file" id="imageUpload" accept="image/*" />
+    <div id="uploadedImageContainer"></div>
+
+    <div id="loading" class="hidden">Generating...</div>
+    <div id="imageContainer"></div>
+    <input type="file" id="imageUpload" accept="image/*" />
+    <div id="uploadedImageContainer"></div>
+    </div>
+
+    <div id="assistantPanel">
+        <div id="chatHeader">💬 Assistant</div>
+        <div id="chatBody"></div>
+        <div id="chatInputContainer">
+          <input type="text" id="chatInput" placeholder="Ask something..." />
+          <button id="chatSend">Send</button>
+        </div>
+      </div>
+      <button id="toggleChat">❔</button>
+  <script src="script.js"></script>
+</body>
+</html>
